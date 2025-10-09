@@ -116,7 +116,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - Start [Ch 10.3, Quasi-Newton methods](Notes/Ch10_SecantMethod.pdf) (see 2.3 notes for more details on the sectant method, i.e., [Newton's Method Variants (secant method, etc.)](Notes/Ch2_NewtonsMethodVariants.pdf))
 - Wed, Oct 1 
   - Finish [Ch 10.3, Quasi-Newton methods](Notes/Ch10_SecantMethod.pdf)
-  - [Optimization problems; Ch 10.4, Steepest-descent (aka Gradient-descent)](Ch10_SteepestDescent.pdf), differences/similarities between root-finding and optimization; pros-cons of different methods
+  - [Optimization problems; Ch 10.4, Steepest-descent (aka Gradient-descent)](Notes/Ch10_SteepestDescent.pdf), differences/similarities between root-finding and optimization; pros-cons of different methods
 - Thu, Oct 2, Lab 7
   - [Lab 7: gradient descent and Newton's method for minimization](Labs/Lab07_gradientDescent.ipynb)2nd order methods
 - Fri, Oct 3 
