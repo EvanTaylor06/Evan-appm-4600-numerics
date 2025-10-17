@@ -151,7 +151,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - [Interpolation: supplemental notes on how to think about it](Notes/Ch3_IntroInterpolationSupplement.pdf) i.e., different bases, and solving linear systems
   - Demos: [Ch3_PolynomialInterpolation.ipynb](Demos/Ch3_PolynomialInterpolation.ipynb), which also links to other demos
 - Thu, Oct 16, Lab 8
-  - TBD, probably interpolation
+  - [Lab 8: interpolation](https://github.com/cu-applied-math/appm-4600-numerics/blob/main/Labs/Lab08_interpolation.ipynb)
 - Fri, Oct 17 
   - Debrief from lab
   - [Hermite Interpolation](Notes/Ch3_Hermite.pdf) from ch 3.4
