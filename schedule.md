@@ -171,20 +171,22 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 #### Week 11, Chapter 4 (numerical integration)
 - Mon, Oct 27
   - Finish 8.2 from Friday.
-    - Demo: [Approximation in L^2](Demos/Ch8_ContinuousL2.ipynb)
-  - [8.4, Rational function approximation](Ch8_RationalFcn.pdf)
-    - [The first five years of the AAA algorithm](https://people.maths.ox.ac.uk/trefethen/nak_sete_tref_revised.pdf) by Y. Nakatsukasa, O. Sete, L. N. Trefethen 
-  - If time:
-    - 8.5, Trigonometric polynomial approximation
-    - smoothing, loess, etc.
+  - Demos: 
+    - [Approximation in L^2](Demos/Ch8_ContinuousL2.ipynb)
+    - [Common Python pitfalls](Demos/Misc_CommonPythonPitfalls.ipynb) relevant to numerical analysys
 - Wed, Oct 29 
+  - [Trigonometric polynomial approximation/interpolation and DFT/FFT](Notes/Ch8_TrigPolynomials_and_DFT_FFT.pdf) though we didn't get to the FFT
+  - In 2025, we're skipping:
+    - ~~[8.4, Rational function approximation](Ch8_RationalFcn.pdf)~~
+        - ~~[The first five years of the AAA algorithm](https://people.maths.ox.ac.uk/trefethen/nak_sete_tref_revised.pdf) by Y. Nakatsukasa, O. Sete, L. N. Trefethen~~
+    - ~~[LOESS and other smoothing techniques](https://en.wikipedia.org/wiki/Local_regression)~~
+- Thu, Oct 30, Lab 10
+  - TBD
+- Fri, Oct 31 
+  - Debrief from lab
   - [Intro to quadrature](Notes/Ch4_quadrature_intro.pdf), and [Newton Cotes formula](Notes/Ch4_quadrature_NewtonCotes.pdf) from ch 4.3
   - Demo: [Ch4_integration.ipynb](Demos/Ch4_integration.ipynb)
   - Note: We will not cover the first parts of this chapter (on *differentiation*), as that is now covered 2nd semester along with Ch 5.  For reference, we have some old notes: [Intro to numerical differentiation](Notes/Ch4_FiniteDifferencesIntro.pdf) and [Finite differences](Notes/Ch4_FiniteDifferences_more.pdf) on ch 4.1; with a [finite differences demo](Demos/Ch4_FiniteDifferences.ipynb); and [Richardson extrapolation](Notes/Ch4_RichardsonExtrapolation.pdf) on ch 4.2 along with the [Ch4_RichardsonExtrapolation.ipynb demo](Demos/Ch4_RichardsonExtrapolation.ipynb)
-- Thu, Oct 30, Lab 10
-  - TBD, perhaps simple quadrature (using numpy's builtin tools), compared to symbolic (sympy/mathematica), compared to [chebfun](https://www.chebfun.org/) which has the aim to "feel symbolic but run at the speed of numerics"
-- Fri, Oct 31 
-  - Debrief from lab
   - [Composite quadrature](Notes/Ch4_quadrature_composite.pdf) from ch 4.4
   - Demo: [Ch4_CompositeIntegration.ipynb](Demos/Ch4_CompositeIntegration.ipynb)
   - Note: we are *not* covering Gregory's method; if you're interested, see (CU professor) Bengt Fornberg's talk [Gregory formulas and improving on the Trapezoidal rule](https://www.colorado.edu/amath/sites/default/files/attached-files/2019_unm_0.pdf)
@@ -199,6 +201,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - In-class review
   - Evening **midterm exam**, 6 to 7:30 PM, ECCS 1B12
 - Thu, Nov 6, Lab 11
+  - TBD, perhaps simple quadrature (using numpy's builtin tools), compared to symbolic (sympy/mathematica), compared to [chebfun](https://www.chebfun.org/) which has the aim to "feel symbolic but run at the speed of numerics"
   - TBD, maybe on adaptive integration
 - Fri, Nov 7 
   - Debrief from lab
