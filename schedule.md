@@ -239,35 +239,41 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
     - In chapter 6, we're roughly covering the material from the book, but adding more (conditioning, more details on LAPACK/BLAS), and doing it in a different order; we're also moving fast, since APPM 3310 "Matrix Methods" is a prereq for this class and these topics were covered in that class
     - We have a basic [Ch6_LinearAlgebraIntro](Notes/Ch6_LinearAlgebraIntro.pdf) note which is a review of some concepts covered in matrix methods. We won't explicitly cover this in class, but please review on your own if you feel rusty on matrix methods.
   - [Complexity of Matrix Multiplication](Notes/Ch6_ComplexityMatrixMultiplication.pdf) and [Systems of Linear Equations and Gaussian Elimination](Notes/Ch6_SystemsOfEquations_GaussianElimination.pdf); we discuss some BLAS
-    - Demo: [Ch6_MatrixMultiplication.ipynb](Demos/Ch6_MatrixMultiplication.ipynb), talk about BLAS and LAPACK
-  - [LU factorization](Notes/Ch6_LUfactorization.pdf)
+  - Start [LU factorization](Notes/Ch6_LUfactorization.pdf)
 #### Week 14, Chapter 9 (Eigenvalues)
 - Mon, Nov 17 
-  - [LU factorization details: pivoting, and block factorization, and special types of matrices](Notes/Ch6_LU_details_pivoting_Cholesky.pdf)
-  - Demo: [Ch6_LU_vs_Cholesky.ipynb](Demos/Ch6_LU_vs_Cholesky.ipynb) (short)
-  - Time-permitting, we may cover:
-    - [Conditioning of solving linear systems](Notes/Ch6_ConditioningOfLinearSystems.pdf) and [Least Squares](Notes/Ch6_LeastSquares.pdf)
-    - Demo: [Ch6_conditioning_LeastSquares.ipynb](Demos/Ch6_conditioning_LeastSquares.ipynb) (long) and [Ch6_RepeatedSolves.ipynb](Demos/Ch6_RepeatedSolves.ipynb) (short)
-    - Optional: take my [Least squares challenge](https://github.com/stephenbeckr/ML-theory-class/blob/main/Code/LeastSquaresChallenge.ipynb) (solutions available on the [solutions branch](https://github.com/stephenbeckr/ML-theory-class/blob/solutions/Code/LeastSquaresChallenge_soln.ipynb)). Can you solve a least-squares problem as fast or as accurately as LAPACK?
+  - Finish basic LU factorization from last time, talking about the flop count.
+  - Do [LU factorization details: pivoting, and block factorization, and special types of matrices](Notes/Ch6_LU_details_pivoting_Cholesky.pdf)
+  - Start [Conditioning of solving linear systems](Notes/Ch6_ConditioningOfLinearSystems.pdf)
 - Wed, Nov 19
-  - More ch 6, or ch 9. QR factorization
+  - Finished conditioning of solving linear systems
+  - [Least Squares](Notes/Ch6_LeastSquares.pdf) which looks at stability of QR vs normal equations
+  - [Ch6_QR_and_Householder.pdf](Notes/Ch6_QR_and_Householder.pdf)
+  - Demos:
+    - Short demo on [Ch6_Conditioning_solvingEquations.ipynb](Demos/Ch6_Conditioning_solvingEquations.ipynb)
+    - Did part of [Ch6_LU_vs_Cholesky.ipynb](Demos/Ch6_LU_vs_Cholesky.ipynb) to demonstrate why we want to pivot. We didn't cover the rest of this demo
+    - Did *not* cover ~~[Ch6_conditioning_LeastSquares.ipynb](Demos/Ch6_conditioning_LeastSquares.ipynb) (long!)~~, nor ~~[Ch6_RepeatedSolves.ipynb](Demos/Ch6_RepeatedSolves.ipynb) (short)~~, nor ~~[Ch6_MatrixMultiplication.ipynb](Demos/Ch6_MatrixMultiplication.ipynb), talk about BLAS and LAPACK~~
 - Thu, Nov 20, Lab 13
-  - TBD
+  - [Lab12: Fast and Accurate Least Squares](Labs/Lab12_LeastSquares.ipynb) via several methods
 - Fri, Nov 21 
   - Debrief from lab
-  - Ch 9.5, QR iteration for eigenvalues
+  - If you're rusy on eigenvalues and determinants, see all of [Ch9_EigenvalueBackground.pdf](Notes/Ch9_EigenvalueBackground.pdf), but we didn't cover all of this systematically in class. We focused on just parts of it and an in-class exercise to see if we can use the characteristic equation to find eigenvalues
+    - Demo: [Ch9_EigenvaluesTheBadWay.ipynb](Demos/Ch9_EigenvaluesTheBadWay.ipynb), though this also has information on how to compute the determinant *the good way*
 #### Thanksgiving break, no class
 
 #### Week 15, iterative methods (Ch 9, possibly Ch 7)
 - Mon, Dec 1 
   - Ch 9.3, Power method
+    - See [Ch9_Powermethod_part1.pdf](Notes/Ch9_Powermethod_part1.pdf) for basic power method
+    - part 2 will cover variants
 - Wed, Dec 3 
-  - Time-permitting, we may cover Ch 7.6 Conjugate Gradient method
+  - Ch 9.5, QR iteration for eigenvalues
 - Thu, Dec 4, Lab 14
   - TBD
 - Fri, Dec 5 
   - Debrief from lab
   - TBD / makeup / review session
+  - ~~Time-permitting, we may cover Ch 7.6 Conjugate Gradient method~~
 
 #### Final exams
 - Tue, Dec 9 
